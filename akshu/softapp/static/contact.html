@@ -1,0 +1,167 @@
+
+contact.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        b{
+            color:rgb(8, 32, 76)
+        }
+        p {
+            color: rgb(10, 44, 73);
+        }
+
+        body {
+            background:url(black.jpg);
+        }
+
+        .yourinfo {
+            background:url(black.jpg);
+            border:5px solid rgb(129, 10, 10);
+            margin-right: 800px ;
+            
+            margin-top: 200px; /* Adjusted margin-top */
+            padding: 10px; /* Added padding for better spacing */
+        }
+        .yourinfo input[type="text"] {
+            width: 500px;
+            transition: background-color 0.3s; 
+        }
+        .yourinfo input[type="text"]:focus {
+    /* Change background color when input is focused */
+    background-color: #0a375e; /* Adjust the color as needed */
+}
+
+        .buttons {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0d3754;
+            color: #531212;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .buttons:hover {
+            color: rgb(14, 77, 77);
+            background-color: #4234db;
+        }
+        .styled form {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .styled form {
+            margin margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .styled [type="button"] {
+            padding: 10px 20px; /* button size */
+            background-color: #0e3c5b; /* initial background color */
+            color: #6a2121; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="button"]:hover {
+            background-color:purple; /*background color on hover */
+            color:rgb(11, 62, 106); /*text color on hover */
+        }
+        .styled [type="submit"] {
+            border-radius: 10px;
+            padding: 5px 10px; /* button size */
+            background-color: #072b43; /* initial background color */
+            color: #4f0f0f; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="submit"]:hover {
+            background-color:purple; /*background color on hover */
+            color:#801919; /*text color on hover */
+        }
+        .styled [type="text"] {
+            margin-left: 500px;
+            transition: background-color 0.3s; 
+            background-color:rgb(96, 61, 19);
+        }
+        .styled input[type="text"]:focus {
+    /* Change background color when input is focused */
+    background-color:rgb(77, 8, 77); /* Adjust the color as needed */
+}
+    
+.company{
+
+margin-left: 900px;
+margin-top: -330px;
+background:url(bg5.jpg);
+
+scroll-padding-left: 5px;
+border:2px solid rgb(90, 23, 23);
+}
+.message textarea {
+        background-color: rgb(95, 17, 17); /* Set the default background color */
+        color: rgb(87, 5, 5); /* Set the default text color */
+    }
+
+    /* Styles for the text area when it is in focus */
+.message    textarea:focus {
+        background-color: rgb(20, 86, 86); /* Set the background color when in focus */
+        color: rgb(100, 12, 12); /* Set the text color when in focus */
+    }
+    </style>
+</head>
+<body>
+    <form class="styled">
+        <div>
+            <a href="home.html">
+                <input type="button" value="HOME">
+            </a>
+            <a href="product.html">
+                <input type="button" value="OUR PRODUCTS">
+            </a>
+            <a href="about.html">
+                <input type="button" value="ABOUT US">
+            </a>
+            <a href="sign.html">
+                <input type="button" value="SIGN IN">
+            </a>
+            <a href="contact.html">
+                <input type="button" value="CONTACT">
+            </a>
+            <input type="text" >
+            <input type="submit" value="SEARCH">
+        </div>
+    </form>
+    <div class="yourinfo">
+        <center>
+        <p>Contact Information</p>
+        <div>            
+            <input type="text" maxlength="100" placeholder="Your Name"><br><br>
+            <input type="text" maxlength="100" placeholder="Your Email"><br><br>
+            <div class="message">
+            <textarea rows="5" cols="65" placeholder="Your Message"></textarea><br><br>
+        </div>
+            <input type="button" value="SUBMIT" class="buttons">
+        
+        </center>
+        </div>
+    </div>
+    <div class="company">
+        <center>
+        <h3 style="color: rgb(7, 49, 85);">GFA Company Information</h3>
+       <p> <b >Address</b></p>
+        <p >3766+H3F</p>
+        <p >new street</p>
+        <p >vellore,TN-632009</p>
+        <b >Email:</b>
+        <p >akshayaa111426@gmail.com</p>
+        <b >Phone</b>
+        <p >7010256205</p>
+    </center>
+    </div>
+</body>
+<footer style="background-color:darkmagenta;margin-top: 118px; border: none;">
+    <P style="color:#752525 ;"align="center">Designed and Developed by Akshayaa </P>
+</footer>
+</html>
